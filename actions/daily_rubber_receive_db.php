@@ -1,6 +1,6 @@
 <?php
 // เชื่อมต่อฐานข้อมูล
-include('condb.php');
+include('../config/condb.php');
 
 // ตรวจสอบว่ามีการส่งข้อมูลหรือไม่
 if (isset($_POST['btn_submit'])) {
@@ -18,7 +18,7 @@ if (isset($_POST['btn_submit'])) {
 
     // เรียกใช้คำสั่ง SQL เพื่อบันทึกข้อมูลลงฐานข้อมูล
     if (mysqli_query($con, $sql)) {
-        echo "<script>alert('บันทึกข้อมูลสำเร็จ'); window.location.href='daily_rubber_receive.php';</script>";
+        echo "<script>alert('บันทึกข้อมูลสำเร็จ'); window.location.href='../views/daily_rubber_receive.php';</script>";
     } else {
         echo "Error: " . mysqli_error($con);
     }

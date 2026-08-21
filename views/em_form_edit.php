@@ -1,6 +1,6 @@
 <?php
 //1. เชื่อมต่อ database:
-include('condb.php');
+include('../config/condb.php');
 $em_id = $_GET["ID"];
 
 //2. query ข้อมูลจากตาราง customer:
@@ -25,7 +25,7 @@ if (mysqli_num_rows($result) > 0) {
 
 <div class="container">
   <div class="row">
-  <form name="editcustomer" action="cust_form_edit_db.php" method="POST" class="form-horizontal">
+  <form name="editcustomer" action="../actions/em_form_edit_db.php" method="POST" class="form-horizontal">
       <div class="form-group">
         <div class="col-sm-12">
           <p style="font-weight: bold;">รหัสลูกจ้าง</p>

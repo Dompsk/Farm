@@ -1,5 +1,5 @@
 <?php
-include('condb.php');
+include('../config/condb.php');
 
 // เมื่อกดบันทึก
 if (isset($_POST['btn_submit'])) {

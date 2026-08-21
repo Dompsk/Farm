@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
 <?php
 //1. เชื่อมต่อ database:
-include('condb.php');
+include('../config/condb.php');
 
 //2. รับค่าจากฟอร์ม
 $c_id = $_POST["c_id"];
@@ -25,7 +25,7 @@ mysqli_close($con);
 if($result){
     echo "<script type='text/javascript'>";
     echo "alert('อัปเดตข้อมูลลูกค้าเรียบร้อยแล้ว');";
-    echo "window.location = 'customer_list.php'; ";
+    echo "window.location = '../index.php'; ";
     echo "</script>";
 } else {
     echo "<script type='text/javascript'>";

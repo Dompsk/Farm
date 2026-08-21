@@ -45,7 +45,7 @@
 
 <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm">
   <div class="container">
-    <a class="navbar-brand fw-bold text-warning" href="customer_list.php">
+    <a class="navbar-brand fw-bold text-warning" href="/Farm/index.php">
       <i class="fa-solid fa-truck" ></i> ระบบร้านน้ำยาง!!
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
@@ -56,16 +56,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto">
       <li class="nav-item">
-          <a class="nav-link text-light fw-semibold" href="customer_list.php">👩🏻‍🌾 จัดการรายชื่อลูกค้า</a>
+          <a class="nav-link text-light fw-semibold" href="/Farm/index.php">👩🏻‍🌾 จัดการรายชื่อลูกค้า</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light fw-semibold" href="daily_rubber_receive.php">📦 การรับน้ำยางรายวัน</a>
+          <a class="nav-link text-light fw-semibold" href="/Farm/views/daily_rubber_receive.php">📦 การรับน้ำยางรายวัน</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light fw-semibold" href="daily_price.php">🌳 ราคาน้ำยางรายวัน</a>
+          <a class="nav-link text-light fw-semibold" href="/Farm/views/daily_price.php">🌳 ราคาน้ำยางรายวัน</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light fw-semibold" href="payment.php">💸 การจ่ายเงินลูกค้า</a>
+          <a class="nav-link text-light fw-semibold" href="/Farm/views/payment.php">💸 การจ่ายเงินลูกค้า</a>
         </li>
         
         

@@ -1,6 +1,6 @@
 <?php
 //1. เชื่อมต่อ database:
-include('condb.php');
+include('../config/condb.php');
 $c_id = $_GET["ID"];
 
 //2. query ข้อมูลจากตาราง customer:
@@ -12,7 +12,7 @@ extract($row);
 
 <div class="container">
   <div class="row">
-  <form name="editcustomer" action="cust_form_edit_db.php" method="POST" class="form-horizontal">
+  <form name="editcustomer" action="../actions/cust_form_edit_db.php" method="POST" class="form-horizontal">
       <div class="form-group">
         <div class="col-sm-12">
           <p style="font-weight: bold;">รหัสลูกค้า</p>

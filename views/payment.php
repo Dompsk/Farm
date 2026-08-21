@@ -1,6 +1,6 @@
 <?php
-include('condb.php'); // เชื่อมฐานข้อมูล
-include('menu.php');
+include('../config/condb.php'); // เชื่อมฐานข้อมูล
+include('../components/menu.php');
 
 // เมื่อกดบันทึก
 if (isset($_POST['submit'])) {
